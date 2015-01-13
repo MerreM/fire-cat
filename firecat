@@ -10,8 +10,6 @@ from curses import wrapper
 
 logging.basicConfig(filename='log.log',level=logging.DEBUG)
 
-
-
 class CursedScreen(object):
     def __init__(self,screen=None):
         self.screen = screen
